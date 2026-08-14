@@ -1,0 +1,35 @@
+{
+  "name": "TokiPlayer",
+  "displayName": "TokiPlayer",
+  "expo": {
+    "name": "TokiPlayer",
+    "slug": "toki-player",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.wazykhan.tokiplayer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.wazykhan.tokiplayer",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_MEDIA_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  },
+  "react-native": {},
+  "jest": {
+    "preset": "react-native"
+  }
+}
